@@ -1,0 +1,165 @@
+/*
+* @Author: admin
+* @Date:   2019-01-21 22:55:37
+* @Last Modified by:   admin
+* @Last Modified time: 2019-01-22 09:26:18
+*/
+/* 灰背 */
+.mt{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	background:rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+/* 模态框 */
+.mtk{
+	
+	background-color: #fff;
+	border-radius: 5px;
+	margin:50px auto;
+}
+/* p */
+.mt-p1{
+	width:100%;
+	padding-right: 10px;
+	box-sizing: border-box;
+	overflow:hidden;
+	border-bottom: 1px solid #eee;
+}
+/* 关闭 */
+.close{
+	// display: block;
+	font-size:20px;
+	float: right;
+	cursor: pointer;
+}
+/* 具体 */
+
+
+/* 修改信息 */
+.xg{
+	display:none;
+}
+.xgxx{
+	width:400px;
+	height: 500px;
+}
+.table2{
+	margin-left:30px;
+	margin-top:10px;
+	width:500px;
+	float: left;
+}
+.table2 tr{
+	height:35px;
+}
+.table2 tr td:nth-child(1){
+	font-size:14px;
+	color:#aaa;
+}
+.table2 tr td:nth-child(2){
+	font-size:14px;
+	color:#666;
+}
+.xgxx button{
+	outline:none;
+	height:30px;
+	width:80px;
+	background-color: skyblue;
+	border:none;
+	color:white;
+	cursor:pointer;
+	display:block;
+	margin:420px auto 0px;
+}
+
+/* 修改头像 */
+.xg2{
+	display:none;
+}
+.xgtx{
+	width:500px;
+	height: 400px;
+}
+.tupian{
+	width:200px;
+	height:200px;
+	background-color: #c7c7c7;
+	border:5px solid #fff;
+	box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.5);
+	margin:10px auto;
+}
+.tupian img{
+	text-align: center;
+	height:100%;
+	width:100%;
+}
+.xgtx input[type='text']{
+	display:inline-block;
+	width:300px;
+}
+.xgtx input[type='button']{
+	outline:none;
+	height:30px;
+	width:80px;
+	background-color: skyblue;
+	border:none;
+	color:white;
+	cursor:pointer;
+}
+.xgtx button{
+	outline:none;
+	height:30px;
+	width:80px;
+	background-color: skyblue;
+	border:none;
+	color:white;
+	cursor:pointer;
+	display:block;
+	margin:0px auto 0px;
+}
+
+/* 修改手机 */
+.xg3{
+	display:none;
+}
+.xgsj{
+	width:400px;
+	height: 200px;
+}
+.xgsj b{
+	display:block;
+	font-weight: none;
+	font-size:12px;
+	color:#ccc;
+	margin:10px;
+}
+.xgsj input[type='text']{
+	display:inline-block;
+	width:100px;
+	height:30px;
+}
+.xgsj input[type='button']{
+	outline:none;
+	height:30px;
+	width:80px;
+	background-color: skyblue;
+	border:none;
+	color:white;
+	cursor:pointer;
+	margin-right: 20px;
+}
+.xgsj button{
+	outline:none;
+	height:30px;
+	width:80px;
+	background-color: skyblue;
+	border:none;
+	color:white;
+	cursor:pointer;
+	display:block;
+	margin:0px auto 0px;
+}

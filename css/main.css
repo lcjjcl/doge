@@ -1,0 +1,723 @@
+/*
+* @Author: admin
+* @Date:   2019-01-21 09:12:38
+* @Last Modified by:   admin
+* @Last Modified time: 2019-01-22 10:13:55
+*/
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.center{
+	width:1150px;
+	margin:0px auto;
+	overflow:hidden;
+}
+body,html{
+	height:100%;
+	width:100%;
+	position:relative;
+}
+/* head */
+	.head{
+		background-color: #3c3c3c;
+		width:100%;
+	}
+	.head img{
+		height: 50px;
+		margin:10px;
+	}
+	.head ul{
+		float: right;
+		list-style: none;
+		width:324px;
+		margin-top: 32px;
+	}
+	.head ul li a{
+		float: left;
+		margin:10px;
+		font-size: 14px;
+		text-decoration: none;
+		color: #ccc;
+	}
+
+/* top */
+	.top{
+		background-color: #3c3c3c;
+		width:100%;
+		overflow: hidden;
+	}
+	.top .icon{
+		width:130px;
+		height: 130px;
+		background: url(../img/bt6.jpg);
+		background-size: 100% 100%;
+		border-radius: 50%;
+		border:8px solid #fff;
+		box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.5);
+		float: left;
+		margin:10px;
+		margin-bottom:20px;
+	}
+	.top .text{
+		float: left;
+		margin:20px ;
+		overflow: hidden;
+		width:790px;
+		margin-bottom: 0px;
+	}
+	.top .text h1{
+		font-size:25px;
+		color:#fff;
+	}
+	.top .text p{
+		margin-top:5px;
+		margin-left: 20px;
+		color:#ccc;
+	}
+	.top .text ul{
+		float: left;
+		list-style:none;
+		margin-top:5px;
+	}
+	.top .text ul li{
+		float: left;
+		width:80px;
+		height:40px;
+		text-align: center;
+		line-height: 40px;
+		color:#f5cb71;
+		margin-right: 10px;
+		margin-bottom:1px;
+		border-bottom: 3px solid #3c3c3c;
+		cursor: pointer;
+	}
+	.top .text ul li:hover{
+		border-bottom: 3px solid #ffc445;
+	}
+	.top .text ul li.click1{
+		border-bottom: 3px solid #ffc445;
+	}
+	.top .text .search{
+		float: right;
+	}
+	.top .text .search input[type='text']{
+		outline: none;
+		border:none;
+		border-radius:10px;
+		width:170px;
+		height:25px;
+		background-color: #fff;
+		color:#333;
+		padding-left: 20px;
+		font-size: 12px;
+		line-height: 25px;
+		/* box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.5); */
+
+	}
+	.top .text .search input[type='button']{
+		width:50px;
+		height:25px;
+		outline: none;
+		border:none;
+		border-radius:10px;
+		background-color: #ffc445;
+		color:#333;
+		font-size: 12px;
+		margin:0 10px;
+		line-height: 25px;
+		cursor:pointer;
+	}
+	.top .text .search input[type='button']:hover{
+		background-color: #ffae00;
+	}
+
+/* main */
+
+	/* left */
+		.main .left{
+			float: left;
+		}
+		.main .left ul{
+			display:none;
+		}
+		.main .left ul:nth-child(1){
+			display: block;
+		}
+		.main .left ul li{
+			font-size:14px;
+			color:#999;
+			width:150px;
+			margin-top:15px;
+			// border-left: 3px solid #ffc445;
+			text-align:center;
+			line-height:30px;
+			letter-spacing: 4px;
+			cursor:pointer;
+		}
+		.main .left ul li img{
+			width:20px;
+			margin-right:10px;
+			position: relative;
+			top:4px;
+		}
+		.main .left ul li:hover{
+			background: #fff1d4;
+		}
+		.main .left ul li.click2{
+			color:#333;
+			background: #fff1d4;
+		}
+		.line{
+			background: linear-gradient(#fff, #ccc, #fff);
+			height:300px;
+			width:1px;
+			float: left;
+			margin:0px 10px;
+		}
+	/* right */
+		.right{
+			float: left;
+			width:979px;
+			min-height: 420px;
+			// background-color: skyblue;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+		.right .right-2,.right .right-3{
+			display:none;
+		}
+		/* 我的信息-个人信息 */
+			.right .right-1 .one1{
+				overflow:hidden;
+				border-top: 20px solid #e1eeff;
+				// display:none;
+			}
+			.right .right-1 .one1 .table1{
+				margin-left:100px;
+				margin-top:10px;
+				width:500px;
+				float: left;
+			}
+			.right .right-1 .one1 .table1 tr{
+				height:35px;
+			}
+			.right .right-1 .one1 .table1 tr td:nth-child(1){
+				font-size:14px;
+				color:#aaa;
+			}
+			.right .right-1 .one1 .table1 tr td:nth-child(2){
+				font-size:14px;
+				color:#666;
+			}
+			.right .right-1 .one1 .icon-div{
+				float: left;
+				margin:30px;
+				width:279px;
+			}
+			.right .right-1 .one1 .icon-div div{
+				margin:auto;
+				width:100px;
+				height:100px;
+				border:5px solid #fff;
+				border-radius:50%;
+				box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+				overflow:hidden;
+			}
+			.right .right-1 .one1 .icon-div div img{
+				height:100%;
+				width:100%;
+			}
+			.right .right-1 .one1 .icon-div button{
+				outline:none;
+				height:30px;
+				width:80px;
+				background-color: skyblue;
+				border:none;
+				color:white;
+				cursor:pointer;
+				display:block;
+				margin:30px auto;
+			}
+			.right .right-1 .one1 .icon-div button:hover{
+				background: #78b4ff;
+			}
+			.right .right-1 .one1 .p1{
+				background-color: #e6ffe4;
+				width:400px;
+				color:#666;
+				margin:30px 100px;
+				font-size:12px;
+				padding:20px;
+			}
+			.right .right-1 .one1 .xiugai{
+				outline:none;
+				height:30px;
+				width:450px;
+				background-color: skyblue;
+				border:none;
+				color:white;
+				cursor:pointer;
+				display:block;
+				margin:100px auto;
+			}
+		/* 我的信息-我的资产 */
+			.right .right-1 .one2{
+				overflow:hidden;
+				border-top: 20px solid #e1eeff;
+				display:none;
+			}
+			.right .right-1 .one2 .yue{
+				width:100%;
+				overflow:hidden;
+				border-bottom: 20px solid #e1eeff;
+			}
+			.right .right-1 .one2 .yue p{
+				font-size:14px;
+				color:#999;
+				margin:10px 0px;
+			}
+			.right .right-1 .one2 .yue h1{
+				display:inline-block;
+				font-size:50px;
+				margin:10px 10px;
+			}
+			.right .right-1 .one2 .yue span{
+				font-size:14px;
+				color:#666;
+			}
+			.right .right-1 .one2 .yue i{
+				display:block;
+				float: right;
+				width:400px;
+				font-style: normal;
+				font-size:14px;
+				color:#666;
+				background-color: #e6ffe4;
+				padding:10px;
+				margin:42px 189px;
+
+			}
+			.right .right-1 .one2 .yue .chongzhi button{
+			    outline: none;
+				height: 30px;
+				width: 138px;
+				background-color: skyblue;
+				border: none;
+				color: white;
+				cursor: pointer;
+				display: block;
+				margin: 13px auto;
+
+			}
+			.right .right-1 .one2 .yue .chongzhi button:nth-child(2){
+				background-color: #ffa749;
+			}
+			.right .right-1 .one2 .zichan li{
+				float: left;
+				list-style:none;
+				margin:50px;
+
+			}
+		/* 我的信息-安全中心 */
+			.right .right-1 .one3{
+				overflow:hidden;
+				border-top: 20px solid #e1eeff;
+				display:none;
+			}
+			.right .right-1 .one3 li{
+				border-bottom:1px solid #eee;
+				list-style:none;
+				overflow:hidden;
+			}
+			.right .right-1 .one3 img{
+				width:50px;
+				float: left;
+				margin:40px;
+			}
+			.right .right-1 .one3 p{
+				width:500px;
+				float: left;
+				font-size:14px;
+				color:#ccc;
+				margin-top: 50px;
+			}
+			.right .right-1 .one3 button{
+				float:left;
+				outline:none;
+				height:30px;
+				width:80px;
+				background-color: skyblue;
+				border:none;
+				color:white;
+				cursor:pointer;
+				display:block;
+				margin:50px 100px;
+			}
+
+
+		/* 宠物服务-我的宠物 */
+			.right .right-2 .two1{
+				// display:none;
+			}
+			.right .right-2 .two1 ul li{
+				float: left;
+				margin:10px 20px;
+				width:100px;
+				height:100px;
+				border:5px solid #fff;
+				border-radius:50%;
+				box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+				overflow:hidden;
+				transition:.2s;
+				cursor:pointer;
+			}
+			.right .right-2 .two1 ul li:hover{
+				transform:scale(1.2,1.2);
+			}
+			.right .right-2 .two1 ul li img{
+				width:100%;
+				height:100%;
+			}
+		/* 宠物服务-我的订单 */
+			.right .right-2 .two2{
+				display:none;
+			}
+			.right .right-2 .two2 ul li{
+				overflow:hidden;
+				margin-bottom:20px;
+				border:1px solid #eee;
+				padding:10px;
+				box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.1);
+			}
+			.right .right-2 .two2 ul li:nth-child(3){
+				background-color: #ddd;
+			}
+			.right .right-2 .two2 ul li img{
+				width:120px;
+				height: 120px;
+				float: left;
+				margin-right:20px;
+				border:5px solid #fff;
+				box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+			}
+			.right .right-2 .two2 ul li div{
+				float: left;
+			}
+			.right .right-2 .two2 ul li div h1{
+				font-size:16px;
+				margin:10px;
+			}
+			.right .right-2 .two2 ul li:nth-child(3) div h1{
+				color:#aaa;
+			}
+			.right .right-2 .two2 ul li div p{
+				font-size:14px;
+				margin:10px;
+				color:#666;
+			}
+			.right .right-2 .two2 ul li:nth-child(3) div p{
+				color:#bbb;
+			}
+			.right .right-2 .two2 ul li button{
+				float: left;
+				outline: none;
+				height: 30px;
+				width: 100px;
+				background-color: #ff9d3d;
+				border: none;
+				color: white;
+				cursor: pointer;
+				display: block;
+				margin: 50px 0px 0px 500px;
+			}
+		/* 宠物服务-我的通知 */
+			.right .right-2 .two3{
+				display:none;
+			}
+			.right .right-2 .two3 ul{
+				position:relative;
+			}
+			.right .right-2 .two3 ul:before{
+				content: '';
+				display:block;
+				position: absolute;
+				height: 480px;
+				width:2px;
+				background-color: skyblue;
+				left: 10px;
+			}
+			.right .right-2 .two3 ul li{
+				overflow:hidden;
+				margin-bottom:20px;
+				border:1px solid #eee;
+				padding:10px;
+				cursor:pointer;
+				box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.1);
+			}
+			.right .right-2 .two3 ul li img{
+				width:50px;
+				margin:20px;
+			}
+			.right .right-2 .two3 ul li p{
+				display:inline-block;
+				height:50px;
+				line-height:50px;
+				position: relative;
+				top:-40px;
+				font-size:14px;
+				color:#999;
+
+			}
+			.right .right-2 .two3 ul li:nth-child(1) p{
+				color:#333;
+			}
+			.right .right-2 .two3 ul li:nth-child(2) p{
+				color:#333;
+			}
+
+		/* 宠物社区-社区广场 */
+			.right .right-3 .thr1{
+				// display:none;
+			}
+			.right .right-3 .thr1 .fabiao{
+				overflow:hidden;
+				margin-bottom:20px;
+				border:1px solid #eee;
+				padding:10px;
+				box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.1);
+			}
+			.right .right-3 .thr1 .fabiao textarea{
+				width:914px;
+				height:120px;
+				resize:none;
+				padding:10px;
+				box-sizing:border-box;
+				outline:none;
+				border:2px solid skyblue;
+				box-shadow: -2px -2px 1px 1px rgba(0,0,0,0.1) inset;
+			}
+			.right .right-3 .thr1 .fabiao button{
+				outline:none;
+				height:30px;
+				width:80px;
+				background-color: skyblue;
+				border:none;
+				color:white;
+				cursor:pointer;
+				display:block;
+				margin:10px auto;
+			}
+			.right .right-3 .thr1 ul li{
+				overflow:hidden;
+				margin-bottom:20px;
+				border:1px solid #eee;
+				padding:10px;
+				box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.1);
+			}
+			.right .right-3 .thr1 ul li .d1{
+				float: left;
+				margin:10px 20px;
+				width:100px;
+				height:100px;
+				border:5px solid #fff;
+				border-radius:50%;
+				box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+				overflow:hidden;
+				transition:.2s;
+				cursor:pointer;
+				background: #ccc;
+			}
+			.right .right-3 .thr1 ul li .d1 img{
+				width:80px;
+				height: 80px;
+				opacity: 0.7;
+				display:block;
+				margin:5px 10px;
+			}
+			.right .right-3 .thr1 ul li .d2{
+				float: left;
+			}
+			.right .right-3 .thr1 ul li .d2 h1{
+				font-size:20px;
+				margin:10px;
+			}
+			.right .right-3 .thr1 ul li .d2 p{
+				margin:10px;
+				font-size:14px;
+				width:700px;
+				color:#666;
+			}
+			.right .right-3 .thr1 ul li .d3 span{
+				display:inline-block;
+				width:30px;
+				margin:0px 10px;
+				cursor:pointer;
+			}
+			.dianzan{
+				height:30px;
+				width:30px;
+				background: url(../img/dianzan.png);
+				background-size:100% 100%;
+			}
+			.dianzan2{
+				height:30px;
+				width:30px;
+				background: url(../img/dianzan2.png);
+				background-size:100% 100%;
+			}
+			.right .right-3 .thr1 ul li .d3 span img{
+				width:100%;
+			}
+		/* 宠物社区-我的空间 */
+			.right .right-3 .thr2{
+				display:none;
+			}
+			.right .right-3 .thr2 .huizhang{
+				overflow:hidden;
+				border-bottom:1px solid #eee;
+				margin-bottom:20px;
+			}
+			.right .right-3 .thr2 .huizhang ul li{
+				float: left;
+				overflow:hidden;
+				margin:27px;
+				border:none;
+				padding:0px;
+				box-shadow: none;
+				transition:.2s;
+			}
+			.right .right-3 .thr2 .huizhang ul li:hover{
+				transform:scale(1.2,1.2);
+			}
+			.right .right-3 .thr2 .huizhang ul li img{
+				width:100px;
+				height: 100px;
+			}
+			.right .right-3 .thr2 .huizhang ul li p{
+				text-align:center;
+				font-weight: bold;
+				color:#999;
+			}
+			.right .right-3 .thr2 .huizhang ul li span{
+				display:block;
+				overflow:hidden;
+				margin-bottom:20px;
+				border:1px solid #eee;
+				border-radius:50%;
+				height:50px;
+				width:50px;
+				margin:27px;
+				box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.1);
+				text-align:center;
+				line-height:45px;
+				font-size:40px;
+				font-weight: bold;
+				color:#eee;
+				cursor:pointer;
+			}
+			
+			.right .right-3 .thr2 ul li{
+				overflow:hidden;
+				margin-bottom:20px;
+				border:1px solid #eee;
+				padding:10px;
+				box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.1);
+			}
+			.right .right-3 .thr2 ul li .d1{
+				float: left;
+				margin:10px 20px;
+				width:100px;
+				height:100px;
+				border:5px solid #fff;
+				border-radius:50%;
+				box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+				overflow:hidden;
+				transition:.2s;
+				cursor:pointer;
+				background: #ccc;
+			}
+			.right .right-3 .thr2 ul li .d1 img{
+				width:80px;
+				height: 80px;
+				opacity: 0.7;
+				display:block;
+				margin:5px 10px;
+			}
+			.right .right-3 .thr2 ul li .d2{
+				float: left;
+			}
+			.right .right-3 .thr2 ul li .d2 h1{
+				font-size:20px;
+				margin:10px;
+			}
+			.right .right-3 .thr2 ul li .d2 p{
+				margin:10px;
+				font-size:14px;
+				width:700px;
+				color:#666;
+			}
+			.right .right-3 .thr2 ul li .d3 span{
+				display:inline-block;
+				width:30px;
+				margin:0px 10px;
+				cursor:pointer;
+			}
+			.right .right-3 .thr2 ul li .d3 span img{
+				width:100%;
+			}
+		/* 宠物社区-我的好友 */
+			.right .right-3 .thr3{
+				display:none;
+			}
+			.right .right-3 .thr3 ul li{
+				width:200px;
+				overflow:hidden;
+				float: left;
+				margin-left:20px;
+				margin-bottom:20px;
+				border:1px solid #eee;
+				padding:10px;
+				box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.1);
+			}
+			.right .right-3 .thr3 ul li img{
+				height:150px;
+				width:200px;
+			}
+			.right .right-3 .thr3 ul li h1{
+				font-size: 15px;
+				font-family: '微软雅黑';
+				color:#333;
+			}
+			.right .right-3 .thr3 ul li p{
+				font-size:12px;
+				color:#666;
+				margin: 5px;
+				height:35px;
+			}
+			.right .right-3 .thr3 ul li button{
+				outline:none;
+				height:30px;
+				width:80px;
+				background-color: skyblue;
+				border:none;
+				color:white;
+				cursor:pointer;
+				display:block;
+				margin:10px auto;
+			}
+
+/* foot */
+	.foot{
+		height:50px;
+		background-color:#cccccc;
+		text-align: center;
+		font-size:12px;
+		color:#333;
+		padding-top: 10px;
+		box-sizing:border-box;
+	}
+	.foot p{
+		margin: 3px;
+	}
